@@ -789,7 +789,7 @@
 <header>
     <div class="header-container">
         <a href="https://bowiltse.com" class="logo">
-            <img src="https://raw.githubusercontent.com/SAPH1TE/Bo-Wiltse-Site/main/ect/1.webp" alt="Bo Wiltse Logo">
+            <img src="https://github.com/bowiltse/Bo-Wiltse-Website/raw/refs/heads/main/ect/1.webp" alt="Bo Wiltse Logo">
             <span class="logo-text">Bo Wiltse</span>
         </a>
         <button class="menu-toggle" aria-label="Toggle navigation menu">
@@ -938,7 +938,6 @@
         </div>
 
         <div class="footer-bottom">
-            <p>&copy; 2025 Bo Wiltse. All rights reserved.</p>
         </div>
     </div>
 </footer>
@@ -988,7 +987,7 @@
 
             const newArtworks = categories.flatMap(category =>
                 Array.from({ length: 3 }, (_, i) => ({
-                    url: `https://raw.githubusercontent.com/SAPH1TE/Bo-Wiltse-Site/main/${category}/${currentPage * 3 + i + 1}.webp`,
+                    url: `https://github.com/bowiltse/Bo-Wiltse-Website/raw/refs/heads/main/${category}/${currentPage * 3 + i + 1}.webp`,
                     alt: `${categoryMap[category]} #${currentPage * 3 + i + 1}`,
                     category: category,
                     title: `${categoryMap[category]} #${currentPage * 3 + i + 1}`
@@ -1190,7 +1189,7 @@
                 : konamiIndex = 0;
 
             if (konamiIndex === konamiCode.length) {
-                window.location.href = 'https://raw.githubusercontent.com/SAPH1TE/Bo-Wiltse-Site/main/ect/2.webp';
+                window.location.href = 'https://raw.githubusercontent.com/bowiltse/Bo-Wiltse-Website/refs/heads/main/ect/2.webp';
             }
         });
     });
